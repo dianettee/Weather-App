@@ -31,10 +31,16 @@
                   type="search"
                   placeholder="Type a city..."
                   class="form-control"
+                  id="city-input"
+                  autocomplete="off"
                 />
               </div>
               <div class="col-4">
-                <input type="submit" value="Search" class="btn btn-primary" />
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-50"
+                />
               </div>
             </div>
           </form>
@@ -51,7 +57,10 @@
                 <img src="" alt="Partly Cloudy" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong
-                  ><span class="temp-units">°C | <a href="#">°F</a></span>
+                  ><span class="temp-units">
+                    <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
                 </div>
               </div>
             </div>

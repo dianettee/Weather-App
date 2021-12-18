@@ -61,3 +61,15 @@ small {
   font-size: 15px;
   top: -25px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.temp-styling .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.temp-styling .active:hover {
+  text-decoration: none;
+}
