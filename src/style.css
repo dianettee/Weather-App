@@ -1,19 +1,11 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Questrial", sans-serif;
 }
 
-.weatherapp {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 3px solid #3f3697;
-  border-radius: 20px;
-  background-color: #f0ebcc;
-}
 h1 {
-  color: #3d84b8;
+  color: #293b5f;
   font-size: 65px;
-
   line-height: 100px;
   margin-bottom: 0;
 }
@@ -23,9 +15,49 @@ ul {
 }
 li {
   list-style: none;
-  color: #14279b;
+  color: #064663;
   font-size: 20px;
   line-height: 30px;
   margin: 0;
   padding: 0;
+}
+small {
+  display: block;
+  margin-top: 15px;
+}
+.weatherappwrap {
+  max-width: 600px;
+  margin: 50px auto;
+}
+.weatherapp {
+  padding: 20px;
+  border: 3px solid #293b5f;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(img/clouds.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.temp-styling img {
+  margin-right: 10px;
+  width: 60px;
+}
+.temp-styling strong {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.float-left {
+  float: left;
+}
+.alignimage {
+  margin-bottom: 20px;
+}
+.temp-styling .temp-units {
+  position: relative;
+  font-size: 15px;
+  top: -25px;
 }
