@@ -35,11 +35,11 @@ small {
   border-radius: 20px;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(255, 255, 255, 0.8)
     ),
-    url(img/clouds.jpg);
-  background-size: 130%;
-  background-repeat: repeat;
+    url(img/weather.png);
+  background-size: 140%;
+  background-repeat: repeat-y;
 }
 .temp-styling img {
   margin-right: 10px;
